@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="App">
+  <grid id="27dc6" binding="JPnel1" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="20" y="20" width="683" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="20394" class="javax.swing.JButton" binding="exit">
+        <constraints/>
+        <properties>
+          <text value="exit"/>
+        </properties>
+      </component>
+      <component id="7bd58" class="javax.swing.JButton" binding="addBtn">
+        <constraints/>
+        <properties>
+          <text value="dodaj"/>
+        </properties>
+      </component>
+      <component id="61736" class="javax.swing.JTextPane" binding="textPane1" default-binding="true">
+        <constraints/>
+        <properties/>
+      </component>
+      <component id="8b48a" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <text value="podaj liczbę a "/>
+        </properties>
+      </component>
+      <component id="b396b" class="javax.swing.JEditorPane" binding="firstNumber">
+        <constraints/>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="247cd" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <text value="podaj liczbe b"/>
+        </properties>
+      </component>
+      <component id="65ec3" class="javax.swing.JEditorPane" binding="secondNumber">
+        <constraints/>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="ad90" class="javax.swing.JEditorPane" binding="result">
+        <constraints/>
+        <properties/>
+      </component>
+    </children>
+  </grid>
+</form>
