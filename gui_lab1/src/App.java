@@ -10,6 +10,7 @@ public class App extends JFrame {
     private JEditorPane secondNumber;
     private JEditorPane result;
     private JTextPane textPane1;
+    private JButton roznica;
 
     public static void main(String args[])
       {
@@ -41,6 +42,13 @@ public class App extends JFrame {
                   result.setText(Integer.toString(suma));
 
 
+              }
+          });
+          roznica.addActionListener(new ActionListener() {
+              @Override
+              public void actionPerformed(ActionEvent e) {
+                  int roznica=Integer.parseInt(firstNumber.getText())-Integer.parseInt(secondNumber.getText());
+                  result.setText(Integer.toString(roznica));
               }
           });
       }

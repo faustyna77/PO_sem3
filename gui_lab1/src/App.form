@@ -2,7 +2,7 @@
 <form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="App">
   <grid id="27dc6" binding="JPnel1" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
     <constraints>
-      <xy x="20" y="20" width="683" height="400"/>
+      <xy x="20" y="20" width="766" height="400"/>
     </constraints>
     <properties/>
     <border type="none"/>
@@ -50,6 +50,12 @@
       <component id="ad90" class="javax.swing.JEditorPane" binding="result">
         <constraints/>
         <properties/>
+      </component>
+      <component id="643f2" class="javax.swing.JButton" binding="roznica">
+        <constraints/>
+        <properties>
+          <text value="odejmij"/>
+        </properties>
       </component>
     </children>
   </grid>
