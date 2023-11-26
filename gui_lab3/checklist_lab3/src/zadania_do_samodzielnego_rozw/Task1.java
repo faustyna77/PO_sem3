@@ -31,6 +31,7 @@ public class Task1 extends JFrame {
                 // Pobranie zaznaczonego elementu z list1
                 Object selectedValue = list1.getSelectedValue();
 
+
                 if (selectedValue != null) {
                     // Dodanie zaznaczonego elementu do list2
                     DefaultListModel list2Model = (DefaultListModel) list2.getModel();
